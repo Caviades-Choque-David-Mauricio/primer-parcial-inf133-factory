@@ -2,6 +2,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests 
 import json
 
+
 class clientes:
     def __init__(self, id, client, status, payment, order_type):
         self.id=id
